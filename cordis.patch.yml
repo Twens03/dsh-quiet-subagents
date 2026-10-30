@@ -1,0 +1,21 @@
+# dsh-quiet-subagents v2 — session-scoped quiet mode for direct subagent messages.
+#
+# One human-readable bubble per child is queued immediately; settlement refreshes
+# the same item in place. The row is enabled by default; the plugin's `enabled`
+# config is a second switch that leaves the hook/tool surface completely
+# unregistered when false.
+# `autoOff: replied` keeps quiet mode armed until the main session has answered
+# the delivered bubble; the default `delivered` turns off as soon as the bubble
+# is claimed into a later turn.
+- insert:
+    - id: quiet-subagents
+      name: dsh-quiet-subagents
+      config:
+        enabled: true
+        onlyCompleted: true
+        autoOff: delivered
+        ttlTurns: 3
+        settledDelivery: coalesce
+        humanize: true
+        language: auto
+        debug: false

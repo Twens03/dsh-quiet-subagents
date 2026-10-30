@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Quiet Subagents",
+    "description": "Session-scoped manual quiet mode: defer direct subagent messages to later turns."
+  }
+}

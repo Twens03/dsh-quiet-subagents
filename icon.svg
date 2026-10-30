@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Quiet Subagents">
+  <rect x="4" y="10" width="40" height="30" rx="7" fill="#4f6ef7" opacity="0.18"/>
+  <rect x="10" y="16" width="40" height="30" rx="7" fill="#4f6ef7" opacity="0.35"/>
+  <path d="M18 24h24M18 31h16" stroke="#4f6ef7" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="46" cy="44" r="14" fill="#4f6ef7"/>
+  <path d="M40 44l4 4 8-9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
